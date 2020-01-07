@@ -14,11 +14,15 @@
     <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1>To-Do App</h1>
 
-    <form id="addToDoForm">
-      <label for="newToDoText">New To-Do:</label>
-      <input type="text" id="newToDoText">
-      <button type="submit">Add To-Do!</button>
-    </form>
+      <form id="addToDoForm">
+        <label for="newToDoText">New To-Do:</label>
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="sample1">
+          <label class="mdl-textfield__label" for="sample1">Text...</label>
+        </div>
+        <!-- Raised button -->
+        <button class="mdl-button mdl-js-button mdl-button--raised">Add To-Do!</button>
+      </form>
 
     <ul id="toDoList">
     </ul>
